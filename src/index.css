@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainDiv{
+  border-radius: 2rem!important; 
+  margin:1rem auto!important;
+  padding: 0!important;
+  background-image: linear-gradient(to bottom, #eee
+  ,rgba(250,250,250,0.4));
+  box-shadow: -10 10px rgba(0,0,0,0.4);
+  max-width: 900px!important;
+  width: 60%!important;
+  
+}
+.leftDiv, .rightDiv{
+  margin:0important;
+  padding: 2rem;
+  border-radius: 20px; 
+
+}
+.leftDiv{
+  background-image: linear-gradient(to bottom right, rgb(81, 0, 157)
+  , rgb(177, 135, 235));
+  box-shadow: inset 10 10 10px rgb(129, 75, 204);
+}
+.score{
+  margin:0important;
+  padding: 2rem;
+  width: 180px;
+  height: 180px;
+  border-radius: 200px; 
+  background-image: linear-gradient(to bottom, rgb(55, 2, 105)
+  , rgb(177, 135, 235));
+  box-shadow: inset 10 10 10px rgb(129, 75, 204);
+}
